@@ -24,6 +24,63 @@
   "address": { "@type": "PostalAddress", "addressCountry": "CN", "addressRegion": "Chongqing" }
 }
 </script>
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="StoneG Trading — Premium Dehydrated Vegetable Ingredients">
+<meta name="twitter:description" content="Factory-direct dehydrated onion, Mexican pepper, beetroot, celery, garlic and fruit powders from China's Hexi Corridor.">
+<meta name="twitter:image" content="https://stonegtrade.com/hero-bg.jpg">
+<meta name="geo.region" content="CN-GS">
+<meta name="geo.placename" content="Zhangye, Gansu">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is your minimum order quantity (MOQ)?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Standard export packing starts from 500 kg per spec for trial orders, with mixed-loading (several specs in one container) welcome. Full container loads (20'GP / 40'GP) get the best FOB rates." }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide free samples?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes — samples from the exact production lot are free of charge, shipped freight collect after the specification is confirmed in writing." }
+    },
+    {
+      "@type": "Question",
+      "name": "Which certifications do your factories hold?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Factory export licenses, HACCP / ISO 22000 and FDA (FSMA) registration documents are available on request. Certificates and COA are issued per shipment, and third-party inspection (SGS / Pony Testing) is welcome before contract." }
+    },
+    {
+      "@type": "Question",
+      "name": "What products do you supply?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Dehydrated white onion (kibbled 8x8 / 10x10 / 14x14 mm, powder 80-120 mesh), Mexican pepper, beetroot powder, celery, garlic, pumpkin, broccoli, okra, kale, plus dehydrated fruit powders such as apple, mango, strawberry and banana. Custom cuts and blends on request." }
+    },
+    {
+      "@type": "Question",
+      "name": "How fast can I get a quote?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Send your product, mesh size, volume and packing requirement — we reply with an indicative FOB range within 24 hours, and hold stock year-round on the onion lines for prompt shipment." }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Dehydrated Vegetable Products",
+  "itemListElement": [
+    { "@type": "Product", "position": 1, "name": "Dehydrated White Onion", "category": "Dehydrated Vegetables", "description": "Kibbled 8x8/10x10/14x14 mm, powder 80-120 mesh, flakes. Moisture <=6%, pale yellow, SO2 optional.", "brand": { "@type": "Brand", "name": "StoneG Trading" } },
+    { "@type": "Product", "position": 2, "name": "Dehydrated Mexican Pepper", "category": "Dehydrated Vegetables", "description": "Pieces, granules and powder 80-120 mesh. Green/red grades, SHU negotiable.", "brand": { "@type": "Brand", "name": "StoneG Trading" } },
+    { "@type": "Product", "position": 3, "name": "Dehydrated Beetroot Powder", "category": "Dehydrated Vegetables", "description": "80-120 mesh, stable betanin color value for natural colorant applications.", "brand": { "@type": "Brand", "name": "StoneG Trading" } },
+    { "@type": "Product", "position": 4, "name": "Dehydrated Celery", "category": "Dehydrated Vegetables", "description": "Pieces and granules, bright green with retained aroma.", "brand": { "@type": "Brand", "name": "StoneG Trading" } },
+    { "@type": "Product", "position": 5, "name": "Dehydrated Garlic", "category": "Dehydrated Vegetables", "description": "Granules 8-16/26/40/100 mesh and powder, white to light yellow, strong flavor.", "brand": { "@type": "Brand", "name": "StoneG Trading" } },
+    { "@type": "Product", "position": 6, "name": "Dehydrated Pumpkin", "category": "Dehydrated Vegetables", "description": "Dices 9x9/10x10 mm and powder 80-120 mesh, golden orange, natural sweetness.", "brand": { "@type": "Brand", "name": "StoneG Trading" } },
+    { "@type": "Product", "position": 7, "name": "Dehydrated Broccoli", "category": "Dehydrated Vegetables", "description": "Florets, granules and powder 80-120 mesh, vivid green, low-temperature dried.", "brand": { "@type": "Brand", "name": "StoneG Trading" } },
+    { "@type": "Product", "position": 8, "name": "Dehydrated Okra", "category": "Dehydrated Vegetables", "description": "Slices and powder, green pods, crisp texture.", "brand": { "@type": "Brand", "name": "StoneG Trading" } },
+    { "@type": "Product", "position": 9, "name": "Dehydrated Kale", "category": "Dehydrated Vegetables", "description": "Flakes and powder 80-120 mesh, deep green, nutrient-dense.", "brand": { "@type": "Brand", "name": "StoneG Trading" } }
+  ]
+}
+</script>
 <style>
   :root {
     --green: #1B4332; --green-2: #2D6A4F; --green-3: #40916C;
@@ -133,6 +190,15 @@
   th, td { border: 1px solid var(--line-soft); padding: 12px 16px; text-align: left; }
   th { background: var(--green); color: #fff; font-weight: 600; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
   tr:nth-child(even) td { background: var(--bg-soft); }
+
+  /* ── faq ── */
+  .faqs { max-width: 860px; }
+  .faqs details { background: #fff; border: 1px solid var(--line); border-radius: 3px; margin-bottom: 12px; padding: 0 22px; }
+  .faqs summary { cursor: pointer; font-size: 15px; font-weight: 600; color: var(--ink); padding: 16px 0; list-style: none; position: relative; padding-right: 34px; }
+  .faqs summary::-webkit-details-marker { display: none; }
+  .faqs summary::after { content: "+"; position: absolute; right: 4px; top: 14px; color: var(--green); font-size: 20px; font-weight: 400; }
+  .faqs details[open] summary::after { content: "–"; }
+  .faqs details p { font-size: 14px; color: var(--body); padding: 0 0 16px; }
 
   /* ── contact ── */
   .contact-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 22px; margin-bottom: 40px; }
@@ -387,6 +453,20 @@
       <div class="step"><h3>Tell Us Your Spec</h3><p>Product, mesh size, volume and packing. We reply with an indicative FOB range and the factors that move it — within 24 hours.</p></div>
       <div class="step"><h3>Evaluate Samples</h3><p>Free samples from the exact production lot, spec confirmed in advance. Third-party inspection (SGS / Pony Testing) welcome before contract.</p></div>
       <div class="step"><h3>Book &amp; Ship</h3><p>LCL or FCL from Qingdao / Lianyungang. Full export documents, certificates and COA provided with every shipment.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="light tint" id="faq">
+  <div class="container">
+    <span class="eyebrow">FAQ</span>
+    <h2 class="title">Frequently Asked Questions</h2>
+    <div class="faqs">
+      <details open><summary>What is your minimum order quantity (MOQ)?</summary><p>Standard export packing starts from 500 kg per spec for trial orders, with mixed-loading (several specs in one container) welcome. Full container loads (20'GP / 40'GP) get the best FOB rates.</p></details>
+      <details><summary>Do you provide free samples?</summary><p>Yes — samples from the exact production lot are free of charge, shipped freight collect after the specification is confirmed in writing.</p></details>
+      <details><summary>Which certifications do your factories hold?</summary><p>Factory export licenses, HACCP / ISO 22000 and FDA (FSMA) registration documents are available on request. Certificates and COA are issued per shipment, and third-party inspection (SGS / Pony Testing) is welcome before contract.</p></details>
+      <details><summary>What products do you supply?</summary><p>Dehydrated white onion (kibbled 8×8 / 10×10 / 14×14 mm, powder 80–120 mesh), Mexican pepper, beetroot powder, celery, garlic, pumpkin, broccoli, okra, kale, plus dehydrated fruit powders such as apple, mango, strawberry and banana. Custom cuts and blends on request.</p></details>
+      <details><summary>How fast can I get a quote?</summary><p>Send your product, mesh size, volume and packing requirement — we reply with an indicative FOB range within 24 hours, and hold stock year-round on the onion lines for prompt shipment.</p></details>
     </div>
   </div>
 </section>
